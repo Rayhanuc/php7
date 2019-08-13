@@ -30,9 +30,9 @@
             <div class="col-md-12">
                 <div class="header-menu">
                     <ul>
-                        <li><a href="class-1/class-1.php" target="_black"><?php echo "Class: 1.1" ?></a></li>
-                        <li><a href="class-2/class-2.php" target="_black"><?php echo "Class: 1.2" ?></a></li>
-                        <li><a href="class-3/class-3.php" target="_black"><?php echo "Class: 1.3" ?></a></li>
+                        <li><a href="class-1/class-1.php" target="_black"><?php echo "Class: ১.১ - পিএইচপি ডেভেলপমেন্ট এনভায়রনমেন্ট" ?></a></li>
+                        <li><a href="class-2/class-2.php" target="_black"><?php echo "Class: ১.২ - ভ্যারিয়েবল পরিচিতি" ?></a></li>
+                        <li><a href="class-3/class-3.php" target="_black"><?php echo "Class: ১.৩ - ভ্যারিয়েবল নিয়ে আরও কথা, কনস্ট্যান্ট এবং কমেন্টস" ?></a></li>
                     </ul>
                 </div>
             </div>
