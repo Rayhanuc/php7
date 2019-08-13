@@ -1,0 +1,37 @@
+[13-Aug-2019 04:23:16 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[13-Aug-2019 04:23:16 UTC] PHP Stack trace:
+[13-Aug-2019 04:23:16 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[13-Aug-2019 04:23:16 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[13-Aug-2019 04:23:16 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[13-Aug-2019 04:23:16 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[13-Aug-2019 04:23:16 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[13-Aug-2019 04:23:16 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[13-Aug-2019 04:23:17 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[13-Aug-2019 04:23:17 UTC] PHP Stack trace:
+[13-Aug-2019 04:23:17 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[13-Aug-2019 04:23:17 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[13-Aug-2019 04:23:17 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[13-Aug-2019 04:23:17 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[13-Aug-2019 04:23:17 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[13-Aug-2019 04:23:17 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[13-Aug-2019 04:23:17 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[13-Aug-2019 04:23:17 UTC] PHP Stack trace:
+[13-Aug-2019 04:23:17 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[13-Aug-2019 04:23:17 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[13-Aug-2019 04:23:17 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[13-Aug-2019 04:23:17 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[13-Aug-2019 04:23:17 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[13-Aug-2019 04:23:17 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[13-Aug-2019 04:23:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_CLI\SynopsisValidator' not found in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php:254
+Stack trace:
+#0 phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(386): WP_CLI\Dispatcher\Subcommand->validate_args(Array, Array, Array)
+#1 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(323): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#2 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(330): WP_CLI\Runner->run_command(Array, Array)
+#3 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(985): WP_CLI\Runner->_run_command()
+#4 phar:///usr/local/bin/wp/php/WP_CLI/Bootstrap/LaunchRunner.php(23): WP_CLI\Runner->start()
+#5 phar:///usr/local/bin/wp/php/bootstrap.php(75): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#6 phar:///usr/local/bin/wp/php/wp-cli.php(23): WP_CLI\bootstrap()
+#7 phar:///usr/local/bin/wp/php/boot-phar.php(8): include('phar:///usr/loc...')
+#8 /usr/local/bin/wp(4): include('phar:///usr/loc...')
+#9 {main}
+  thrown in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php on line 254
