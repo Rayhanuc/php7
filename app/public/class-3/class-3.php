@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>PHP-7 Class 1.2</title>
+        <title>PHP-7 Class 1.3</title>
 
         <!-- bootstrap css link -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -26,20 +26,35 @@
                     <div class="col-md-12">
                         <?php
                         echo "<h1 class='text-center'>PHP-7</h1> \n<br/>";
-                        echo "<h3 class='text-center'>১.২ - ভ্যারিয়েবল পরিচিতি</h3> \n<br/>";
+                        echo "<h3 class='text-center'>১.৩ - ভ্যারিয়েবল নিয়ে আরও কথা, কনস্ট্যান্ট এবং কমেন্টস</h3> \n<br/>";
                         ?>
                         <hr>
                         <?php echo "<h4>PHP Code: </h4>"; ?>
                         <pre>
-$name = 'Bangladesh';
-$age = 16;
-$word = 'age';
-$question = 'How are you?';
-echo 'Hello '.$name."\n<!-- <br/> -->";
-echo "Hello {$name}"."\n<!-- <br/> -->";
-echo $name."\n<!-- <br/> -->".$word."\n<!-- <br/> -->".$age." "."\n<!-- <br/> -->";
-echo "Hello {$name}, {$question}\n<!-- <br/> -->";
-echo "World";
+
+$task = 'Read';
+echo $task;
+echo "\n<!-- <br/> -->";
+$task = "Write";
+echo $task;
+echo "\n<!-- <br/> -->";
+// constant
+define('PI',3.14159);
+echo "Value of PI = ".PI;
+echo "\n<!-- <br/> -->";
+echo PI;
+// echo constant('PI');
+echo "\n<!-- <br/> -->";
+$constant = 'constant';
+// echo "Value of PI = {$constant('PI')}";
+/*
+Multiple line comment
+Line two
+Line three
+Line four
+*/
+// single line comment
+
                         </pre>
                     </div>
                 </div>
@@ -52,18 +67,28 @@ echo "World";
 
                         <?php
                         echo "<h4>PHP Code Result: </h4>";
-                        $my_name = '';
-                        // Camel case
-                        $myNameIs = '';
-                        $name = 'Bangladesh';
-                        $age = 16;
-                        $word = 'age';
-                        $question = 'How are you?';
-                        echo 'Hello '.$name."\n<br/>";
-                        echo "Hello {$name}"."\n<br/>";
-                        echo $name."\n<br/>".$word."\n<br/>".$age." "."\n<br/>";
-                        echo "Hello {$name}, {$question}\n<br/>";
-                        echo "World";
+                        $task = 'Read';
+                        echo $task;
+                        echo "\n<br/>";
+                        $task = "Write";
+                        echo $task;
+                        echo "\n<br/>";
+                        // constant
+                        define('PI',3.14159);
+                        echo "Value of PI = ".PI;
+                        echo "\n<br/>";
+                        echo PI;
+                        // echo constant('PI');
+                        echo "\n<br/>";
+                        $constant = 'constant';
+                        // echo "Value of PI = {$constant('PI')}";
+                        /*
+                        Multiple line comment
+                        Line two
+                        Line three
+                        Line four
+                        */
+                        // single line comment
                         ?>
                     </div>
                 </div>
