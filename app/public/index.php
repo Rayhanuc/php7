@@ -30,10 +30,11 @@
             <div class="col-md-12">
                 <div class="header-menu">
                     <ul>
-                        <li><a href="class-1/class-1.php" target="_black"><?php echo "Class: ১.১ - পিএইচপি ডেভেলপমেন্ট এনভায়রনমেন্ট" ?></a></li>
-                        <li><a href="class-2/class-2.php" target="_black"><?php echo "Class: ১.২ - ভ্যারিয়েবল পরিচিতি" ?></a></li>
-                        <li><a href="class-3/class-3.php" target="_black"><?php echo "Class: ১.৩ - ভ্যারিয়েবল নিয়ে আরও কথা, কনস্ট্যান্ট এবং কমেন্টস" ?></a></li>
-                        <li><a href="class-4/class-4.php" target="_black"><?php echo "Class: ১.৪ - পিএইচপিতে আউটপুট প্রিন্ট করা নিয়ে বিস্তারিত" ?></a></li>
+                        <li><a href="class-1/class-1.php" target="_black"><?php echo "১.১ - পিএইচপি ডেভেলপমেন্ট এনভায়রনমেন্ট" ?></a></li>
+                        <li><a href="class-2/class-2.php" target="_black"><?php echo "১.২ - ভ্যারিয়েবল পরিচিতি" ?></a></li>
+                        <li><a href="class-3/class-3.php" target="_black"><?php echo "১.৩ - ভ্যারিয়েবল নিয়ে আরও কথা, কনস্ট্যান্ট এবং কমেন্টস" ?></a></li>
+                        <li><a href="class-4/class-4.php" target="_black"><?php echo "১.৪ - পিএইচপিতে আউটপুট প্রিন্ট করা নিয়ে বিস্তারিত" ?></a></li>
+                        <li><a href="class-5/class-5.php" target="_black"><?php echo "১.৫ - উইন্ডোজের জন্য ভিজ্যুয়াল স্টুডিও তে কোডরানার ফিক্স করা (পিএইচপি নট ফাউন্ড)" ?></a></li>
                     </ul>
                 </div>
             </div>
