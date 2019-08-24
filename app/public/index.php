@@ -35,6 +35,7 @@
                         <li><a href="class-3/class-3.php" target="_black"><?php echo "১.৩ - ভ্যারিয়েবল নিয়ে আরও কথা, কনস্ট্যান্ট এবং কমেন্টস" ?></a></li>
                         <li><a href="class-4/class-4.php" target="_black"><?php echo "১.৪ - পিএইচপিতে আউটপুট প্রিন্ট করা নিয়ে বিস্তারিত" ?></a></li>
                         <li><a href="class-5/class-5.php" target="_black"><?php echo "১.৫ - উইন্ডোজের জন্য ভিজ্যুয়াল স্টুডিও তে কোডরানার ফিক্স করা (পিএইচপি নট ফাউন্ড)" ?></a></li>
+                        <li><a href="class-6/class-6.php" target="_black"><?php echo "১.৬ - উইন্ডোজের জন্য পিএইচপিস্টর্মে তে কোডরানার ফিক্স করা" ?></a></li>
                     </ul>
                 </div>
             </div>
