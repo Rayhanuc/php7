@@ -36,6 +36,7 @@
                         <li><a href="class-4/class-4.php" target="_black"><?php echo "১.৪ - পিএইচপিতে আউটপুট প্রিন্ট করা নিয়ে বিস্তারিত" ?></a></li>
                         <li><a href="class-5/class-5.php" target="_black"><?php echo "১.৫ - উইন্ডোজের জন্য ভিজ্যুয়াল স্টুডিও তে কোডরানার ফিক্স করা (পিএইচপি নট ফাউন্ড)" ?></a></li>
                         <li><a href="class-6/class-6.php" target="_black"><?php echo "১.৬ - উইন্ডোজের জন্য পিএইচপিস্টর্মে তে কোডরানার ফিক্স করা" ?></a></li>
+                        <li><a href="class-7/class-7.php" target="_black"><?php echo "১.৭ - পিএইচপিতে যোগ বিয়োগ গুন ভাগ" ?></a></li>
                     </ul>
                 </div>
             </div>
