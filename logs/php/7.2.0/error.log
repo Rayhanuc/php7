@@ -48,3 +48,17 @@ Stack trace:
 [31-Aug-2019 16:35:11 UTC] PHP Stack trace:
 [31-Aug-2019 16:35:11 UTC] PHP   1. {main}() /app/public/class-9/class-9.php:0
 [31-Aug-2019 16:35:11 UTC] PHP   2. printf() /app/public/class-9/class-9.php:62
+[31-Aug-2019 17:08:43 UTC] PHP Notice:  Undefined variable: s in /app/public/class-10/class-10.php on line 60
+[31-Aug-2019 17:08:43 UTC] PHP Stack trace:
+[31-Aug-2019 17:08:43 UTC] PHP   1. {main}() /app/public/class-10/class-10.php:0
+[31-Aug-2019 17:08:43 UTC] PHP Notice:  Undefined variable: s in /app/public/class-10/class-10.php on line 60
+[31-Aug-2019 17:08:43 UTC] PHP Stack trace:
+[31-Aug-2019 17:08:43 UTC] PHP   1. {main}() /app/public/class-10/class-10.php:0
+[31-Aug-2019 17:19:27 UTC] PHP Warning:  printf(): Too few arguments in /app/public/class-10/class-10.php on line 64
+[31-Aug-2019 17:19:27 UTC] PHP Stack trace:
+[31-Aug-2019 17:19:27 UTC] PHP   1. {main}() /app/public/class-10/class-10.php:0
+[31-Aug-2019 17:19:27 UTC] PHP   2. printf() /app/public/class-10/class-10.php:64
+[31-Aug-2019 17:19:27 UTC] PHP Warning:  printf(): Too few arguments in /app/public/class-10/class-10.php on line 66
+[31-Aug-2019 17:19:27 UTC] PHP Stack trace:
+[31-Aug-2019 17:19:27 UTC] PHP   1. {main}() /app/public/class-10/class-10.php:0
+[31-Aug-2019 17:19:27 UTC] PHP   2. printf() /app/public/class-10/class-10.php:66
