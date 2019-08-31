@@ -36,3 +36,15 @@ Stack trace:
 #9 {main}
   thrown in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php on line 254
 [13-Aug-2019 09:50:58 UTC] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE), expecting ',' or ';' in /app/public/class-2/class-2.php on line 55
+[31-Aug-2019 14:55:04 UTC] PHP Notice:  Undefined variable: d in /app/public/class-9/class-9.php on line 56
+[31-Aug-2019 14:55:04 UTC] PHP Stack trace:
+[31-Aug-2019 14:55:04 UTC] PHP   1. {main}() /app/public/class-9/class-9.php:0
+[31-Aug-2019 16:20:02 UTC] PHP Parse error:  syntax error, unexpected 'x' (T_STRING) in /app/public/class-9/class-9.php on line 56
+[31-Aug-2019 16:20:34 UTC] PHP Parse error:  syntax error, unexpected 'B' (T_STRING) in /app/public/class-9/class-9.php on line 56
+[31-Aug-2019 16:20:49 UTC] PHP Parse error:  syntax error, unexpected 'B' (T_STRING) in /app/public/class-9/class-9.php on line 56
+[31-Aug-2019 16:21:11 UTC] PHP Parse error:  syntax error, unexpected 'B' (T_STRING) in /app/public/class-9/class-9.php on line 56
+[31-Aug-2019 16:21:46 UTC] PHP Parse error:  syntax error, unexpected 'x1B' (T_STRING) in /app/public/class-9/class-9.php on line 56
+[31-Aug-2019 16:35:11 UTC] PHP Warning:  printf(): Too few arguments in /app/public/class-9/class-9.php on line 62
+[31-Aug-2019 16:35:11 UTC] PHP Stack trace:
+[31-Aug-2019 16:35:11 UTC] PHP   1. {main}() /app/public/class-9/class-9.php:0
+[31-Aug-2019 16:35:11 UTC] PHP   2. printf() /app/public/class-9/class-9.php:62

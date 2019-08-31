@@ -38,6 +38,7 @@
                         <li><a href="class-6/class-6.php" target="_black"><?php echo "১.৬ - উইন্ডোজের জন্য পিএইচপিস্টর্মে তে কোডরানার ফিক্স করা" ?></a></li>
                         <li><a href="class-7/class-7.php" target="_black"><?php echo "১.৭ - পিএইচপিতে যোগ বিয়োগ গুন ভাগ" ?></a></li>
                         <li><a href="class-8/class-8.php" target="_black"><?php echo "১.৮ - ++ এবং -- নিয়ে আরও কিছু কথা" ?></a></li>
+                        <li><a href="class-9/class-9.php" target="_black"><?php echo "১.৯ - বিভিন্ন রকমের নাম্বার সিস্টেম নিয়ে আলোচনা" ?></a></li>
                     </ul>
                 </div>
             </div>
