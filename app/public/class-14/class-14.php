@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>PHP-7 Class 1.13</title>
+        <title>PHP-7 Class 1.14</title>
 
         <!-- bootstrap css link -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
                     <div class="col-md-12">
                         <?php
                         echo "<h1 class='text-center'>PHP-7</h1> \n<br/>";
-                        echo "<h3 class='text-center'>১.১৩ - ইফ এলস, লিপ ইয়ার এবং কিভাবে জটিল কন্ডিশন গুলো শর্টকাটে লেখা যায়</h3> \n<br/>";
+                        echo "<h3 class='text-center'>১.১৪ - নেস্টেড ইফ এলস এবং কোডের রিডেবিলিটি</h3> \n<br/>";
                         ?>
                         <hr>
                         <?php echo "<h4>PHP Code: </h4>"; ?>
