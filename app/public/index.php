@@ -44,6 +44,7 @@
                         <li><a href="class-12/class-12.php" target="_black"><?php echo "১.১২ - পিএইচপিতে কন্ডিশন (লজিক) এবং লজিকাল অপারেটর নিয়ে আলোচনা" ?></a></li>
                         <li><a href="class-13/class-13.php" target="_black"><?php echo "১.১৩ - ইফ এলস, লিপ ইয়ার এবং কিভাবে জটিল কন্ডিশন গুলো শর্টকাটে লেখা যায়" ?></a></li>
                         <li><a href="class-14/class-14.php" target="_black"><?php echo "১.১৪ - নেস্টেড ইফ এলস এবং কোডের রিডেবিলিটি" ?></a></li>
+                        <li><a href="class-15/class-15.php" target="_black"><?php echo "১.১৫ - পিএইচপিতে টার্নারী অপারেটর এবং নেস্টেড টার্নারী অপারেটর নিয়ে কাজ করা" ?></a></li>
                     </ul>
                 </div>
             </div>
