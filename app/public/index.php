@@ -45,6 +45,7 @@
                         <li><a href="class-13/class-13.php" target="_black"><?php echo "১.১৩ - ইফ এলস, লিপ ইয়ার এবং কিভাবে জটিল কন্ডিশন গুলো শর্টকাটে লেখা যায়" ?></a></li>
                         <li><a href="class-14/class-14.php" target="_black"><?php echo "১.১৪ - নেস্টেড ইফ এলস এবং কোডের রিডেবিলিটি" ?></a></li>
                         <li><a href="class-15/class-15.php" target="_black"><?php echo "১.১৫ - পিএইচপিতে টার্নারী অপারেটর এবং নেস্টেড টার্নারী অপারেটর নিয়ে কাজ করা" ?></a></li>
+                        <li><a href="class-16/class-16.php" target="_black"><?php echo "১.১৬ - কন্ডিশন চেক করার আরেকটি উপায় - সুইচকেস" ?></a></li>
                     </ul>
                 </div>
             </div>
