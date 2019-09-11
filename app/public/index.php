@@ -46,6 +46,7 @@
                         <li><a href="class-14/class-14.php" target="_black"><?php echo "১.১৪ - নেস্টেড ইফ এলস এবং কোডের রিডেবিলিটি" ?></a></li>
                         <li><a href="class-15/class-15.php" target="_black"><?php echo "১.১৫ - পিএইচপিতে টার্নারী অপারেটর এবং নেস্টেড টার্নারী অপারেটর নিয়ে কাজ করা" ?></a></li>
                         <li><a href="class-16/class-16.php" target="_black"><?php echo "১.১৬ - কন্ডিশন চেক করার আরেকটি উপায় - সুইচকেস" ?></a></li>
+                        <li><a href="class-17/class-17.php" target="_black"><?php echo "১.১৭ - সুইচকেস নিয়ে আরও কথা" ?></a></li>
                     </ul>
                 </div>
             </div>
