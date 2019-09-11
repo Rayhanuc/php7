@@ -41,6 +41,7 @@
                         <li><a href="class-9/class-9.php" target="_black"><?php echo "১.৯ - বিভিন্ন রকমের নাম্বার সিস্টেম নিয়ে আলোচনা" ?></a></li>
                         <li><a href="class-10/class-10.php" target="_black"><?php echo "১.১০ - প্রিন্টএফ ফাংশনের জাদু" ?></a></li>
                         <li><a href="class-11/class-11.php" target="_black"><?php echo "১.১১ - sprintf নিয়ে কিছু কথা" ?></a></li>
+                        <li><a href="class-12/class-12.php" target="_black"><?php echo "১.১২ - পিএইচপিতে কন্ডিশন (লজিক) এবং লজিকাল অপারেটর নিয়ে আলোচনা" ?></a></li>
                     </ul>
                 </div>
             </div>

@@ -62,3 +62,19 @@ Stack trace:
 [31-Aug-2019 17:19:27 UTC] PHP Stack trace:
 [31-Aug-2019 17:19:27 UTC] PHP   1. {main}() /app/public/class-10/class-10.php:0
 [31-Aug-2019 17:19:27 UTC] PHP   2. printf() /app/public/class-10/class-10.php:66
+[10-Sep-2019 17:42:24 UTC] PHP Parse error:  syntax error, unexpected '"' in /app/public/class-12/class-12.php on line 101
+[10-Sep-2019 17:58:10 UTC] PHP Parse error:  syntax error, unexpected '"' in /app/public/class-12/class-12.php on line 101
+[10-Sep-2019 17:58:43 UTC] PHP Parse error:  syntax error, unexpected '"' in /app/public/class-12/class-12.php on line 101
+[10-Sep-2019 17:59:07 UTC] PHP Parse error:  syntax error, unexpected ''{$n} is an even number'' (T_CONSTANT_ENCAPSED_STRING) in /app/public/class-12/class-12.php on line 101
+[10-Sep-2019 17:59:25 UTC] PHP Parse error:  syntax error, unexpected ''$n is an even number'' (T_CONSTANT_ENCAPSED_STRING) in /app/public/class-12/class-12.php on line 101
+[10-Sep-2019 18:03:01 UTC] PHP Parse error:  syntax error, unexpected '"' in /app/public/class-12/class-12.php on line 101
+[10-Sep-2019 18:03:50 UTC] PHP Parse error:  syntax error, unexpected '"' in /app/public/class-12/class-12.php on line 101
+[10-Sep-2019 18:05:21 UTC] PHP Parse error:  syntax error, unexpected '"' in /app/public/class-12/class-12.php on line 101
+[10-Sep-2019 18:05:55 UTC] PHP Parse error:  syntax error, unexpected '"' in /app/public/class-12/class-12.php on line 101
+[10-Sep-2019 18:06:26 UTC] PHP Parse error:  syntax error, unexpected '"' in /app/public/class-12/class-12.php on line 101
+[10-Sep-2019 18:06:30 UTC] PHP Parse error:  syntax error, unexpected '"' in /app/public/class-12/class-12.php on line 101
+[10-Sep-2019 18:07:11 UTC] PHP Parse error:  syntax error, unexpected '"' in /app/public/class-12/class-12.php on line 57
+[10-Sep-2019 18:11:24 UTC] PHP Parse error:  syntax error, unexpected '"' in /app/public/class-12/class-12.php on line 57
+[11-Sep-2019 04:37:08 UTC] PHP Notice:  Undefined variable: age in /app/public/class-12/class-12.php on line 100
+[11-Sep-2019 04:37:08 UTC] PHP Stack trace:
+[11-Sep-2019 04:37:08 UTC] PHP   1. {main}() /app/public/class-12/class-12.php:0
