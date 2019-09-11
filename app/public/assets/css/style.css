@@ -66,3 +66,12 @@ a:hover { text-decoration: none }
     color: #af27a7;
     padding-left: 4px;
 }
+
+.copyright-area-text {
+    text-align: center;
+    padding: 40px 0;
+    color: darkgrey;
+    background: #1b061a;
+    margin-top: 40px;
+    font-size: 12px;
+}
