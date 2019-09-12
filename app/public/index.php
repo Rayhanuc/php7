@@ -48,6 +48,7 @@
                         <li><a href="class-16/class-16.php" target="_black"><?php echo "১.১৬ - কন্ডিশন চেক করার আরেকটি উপায় - সুইচকেস" ?></a></li>
                         <li><a href="class-17/class-17.php" target="_black"><?php echo "১.১৭ - সুইচকেস নিয়ে আরও কথা" ?></a></li>
                         <li><a href="class-18/class-18.php" target="_black"><?php echo "১.১৮ - সুইচ কেসের একটা মজার ইস্যু" ?></a></li>
+                        <li><a href="class-19/class-19.php" target="_black"><?php echo "১.১৯ - পিএইচপিতে অপারেটর প্রিসিডেন্স - কে আর আগে রান করে" ?></a></li>
                     </ul>
                 </div>
             </div>
