@@ -51,7 +51,10 @@
                         <li><a href="class-19/class-19.php" target="_blank"><?php echo "১.১৯ - পিএইচপিতে অপারেটর প্রিসিডেন্স - কে আর আগে রান করে" ?></a></li>
                         <li><a href="class-20/class-20.php" target="_blank"><?php echo "১.২০ - পিএইচপিতে কন্ট্রোল স্ট্রাকচারের অল্টারনেটিভ সিনট্যাক্স নিয়ে আলোচনা
                             " ?></a></li>
-                        <li><a href="class-20/class-20.php" target="_blank"><?php echo "" ?></a></li>
+                        <li><a href="class-21/class-21.php" target="_blank">
+                                <?php echo "১.২১ - টার্নারি অপারেটর নিয়ে কিছু জিনিস পরিষ্কার করা" ?> 
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
