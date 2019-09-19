@@ -34,89 +34,12 @@
                         <pre>
 
 // php code start
-
-$n = 12;
-
-// normal way to write if else function
-if ($n%2==0) {
-    echo "Even Number";
-}else{
-    echo "Odd Number";
-}
-echo "\n<br/>";
-// alternet syntex method of if else
-if ($n%2==0) :
-    echo "Even Number";
-    echo PHP_EOL; // echo "\n";
-    echo "Some Text";
-elseif(true) :
-
-else :
-    echo "Odd Number";
-    echo PHP_EOL; // echo "\n";
-    echo "Some Text++";
-endif;
-
-// switch case syntex
-/*switch (variable) {
-    case 'value':
-        # code...
-        break;
-    
-    default:
-        # code...
-        break;
-}*/
-echo "\n<br/>"; // echo "\n";
-switch ($n%2==0):
-    case 0:
-        echo "Even Number";
-        break;
-    default:
-        echo "Odd Number";
-endswitch;
-
-echo "\n<br/>";
-// alternet syntex method of if else
-if ($n%2==0) :
-    ?>
-    Even Number 
-    <br/>
-    Some Text
-    <br/>
-    <?php
-
-else :
-    ?>
-    Odd Number 
-    <br/>
-    Some Text ++
-    <br/>
-    <?php
-endif;
-
-echo "\n<br/>";
-// alternet syntex method of if else
-if ($n%2==0) {
-    ?>
-    Even Number 
-    <br/>
-    Some Text
-    <br/>
-    <?php
-}
-else {
-    ?>
-    Odd Number 
-    <br/>
-    Some Text ++
-    <br/>
-    <?php
-}
+Those code are difficult to show. Thats why i didn't kept those code.
 
 // php end
 
                         </pre>
+                        <a href="https://github.com/Rayhanuc/php7/blob/master/app/public/class-20/class-20.php"  target="_black">If you want to see code in github please visit this link</a>
                     </div>
                 </div>
             </div>
