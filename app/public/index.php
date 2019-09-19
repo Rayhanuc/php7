@@ -49,6 +49,8 @@
                         <li><a href="class-17/class-17.php" target="_black"><?php echo "১.১৭ - সুইচকেস নিয়ে আরও কথা" ?></a></li>
                         <li><a href="class-18/class-18.php" target="_black"><?php echo "১.১৮ - সুইচ কেসের একটা মজার ইস্যু" ?></a></li>
                         <li><a href="class-19/class-19.php" target="_black"><?php echo "১.১৯ - পিএইচপিতে অপারেটর প্রিসিডেন্স - কে আর আগে রান করে" ?></a></li>
+                        <li><a href="class-20/class-20.php" target="_black"><?php echo "১.২০ - পিএইচপিতে কন্ট্রোল স্ট্রাকচারের অল্টারনেটিভ সিনট্যাক্স নিয়ে আলোচনা
+                            " ?></a></li>
                     </ul>
                 </div>
             </div>

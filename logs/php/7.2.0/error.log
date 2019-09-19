@@ -78,3 +78,6 @@ Stack trace:
 [11-Sep-2019 04:37:08 UTC] PHP Notice:  Undefined variable: age in /app/public/class-12/class-12.php on line 100
 [11-Sep-2019 04:37:08 UTC] PHP Stack trace:
 [11-Sep-2019 04:37:08 UTC] PHP   1. {main}() /app/public/class-12/class-12.php:0
+[19-Sep-2019 07:12:46 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ':' in /app/public/class-20/class-20.php on line 71
+[19-Sep-2019 07:13:31 UTC] PHP Parse error:  syntax error, unexpected '{', expecting ':' in /app/public/class-20/class-20.php on line 73
+[19-Sep-2019 07:38:06 UTC] PHP Parse error:  syntax error, unexpected '"<br/>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /app/public/class-20/class-20.php on line 89
