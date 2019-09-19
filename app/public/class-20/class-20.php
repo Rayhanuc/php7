@@ -39,7 +39,7 @@ Those code are difficult to show. Thats why i didn't kept those code.
 // php end
 
                         </pre>
-                        <a href="https://github.com/Rayhanuc/php7/blob/master/app/public/class-20/class-20.php"  target="_black">If you want to see code in github please visit this link</a>
+                        <a href="https://github.com/Rayhanuc/php7/blob/master/app/public/class-20/class-20.php"  target="_blank">If you want to see code in github please visit this link</a>
                     </div>
                 </div>
             </div>
