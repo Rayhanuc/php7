@@ -86,3 +86,5 @@ Stack trace:
 [19-Sep-2019 09:30:31 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /app/public/class-20/class-20.php on line 89
 [19-Sep-2019 13:22:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/class-22/class-22.php on line 57
 [19-Sep-2019 15:20:40 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting while (T_WHILE) in /app/public/class-22/class-22.php on line 102
+[20-Sep-2019 06:07:19 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/class-24/class-24.php on line 60
+[20-Sep-2019 06:08:15 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/class-24/class-24.php on line 60
