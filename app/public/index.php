@@ -62,6 +62,10 @@
                                 <?php echo "১.২২ - বিভিন্ন রকম লুপের সাথে পরিচয়" ?> 
                             </a>
                         </li>
+                        <li><a href="class-23/class-23.php" target="_blank">
+                                <?php echo "১.২৩ - ফর লুপে মাল্টিপল স্টেপিং" ?> 
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
