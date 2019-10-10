@@ -94,6 +94,10 @@
                                 <?php echo "১.৩০ - স্পেসশিপ অপারেটর" ; ?> 
                             </a>
                         </li>
+                        <li><a href="class-31/class-31.php" target="_blank">
+                                <?php echo "১.৩১ - নাল কোলেস অপারেটর" ; ?> 
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

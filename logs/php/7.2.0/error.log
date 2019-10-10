@@ -95,3 +95,6 @@ Stack trace:
 [20-Sep-2019 06:40:14 UTC] PHP Stack trace:
 [20-Sep-2019 06:40:14 UTC] PHP   1. {main}() /app/public/class-24/class-24.php:0
 [30-Sep-2019 18:33:58 UTC] PHP Parse error:  syntax error, unexpected '"<br/>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /app/public/class-27/class-27.php on line 60
+[10-Oct-2019 19:13:20 UTC] PHP Notice:  Undefined variable: lat in /app/public/class-31/class-31.php on line 62
+[10-Oct-2019 19:13:20 UTC] PHP Stack trace:
+[10-Oct-2019 19:13:20 UTC] PHP   1. {main}() /app/public/class-31/class-31.php:0
