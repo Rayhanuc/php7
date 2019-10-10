@@ -90,6 +90,10 @@
                                 <?php echo "১.২৯ - লুপ দিয়ে ফিবোনাচ্চি সিরিজ প্রিন্ট করা" ; ?> 
                             </a>
                         </li>
+                        <li><a href="class-30/class-30.php" target="_blank">
+                                <?php echo "১.৩০ - স্পেসশিপ অপারেটর" ; ?> 
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
