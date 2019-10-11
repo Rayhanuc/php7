@@ -98,3 +98,7 @@ Stack trace:
 [10-Oct-2019 19:13:20 UTC] PHP Notice:  Undefined variable: lat in /app/public/class-31/class-31.php on line 62
 [10-Oct-2019 19:13:20 UTC] PHP Stack trace:
 [10-Oct-2019 19:13:20 UTC] PHP   1. {main}() /app/public/class-31/class-31.php:0
+[11-Oct-2019 13:35:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function factorial() in /app/public/class-2.2/class-2.2.php:60
+Stack trace:
+#0 {main}
+  thrown in /app/public/class-2.2/class-2.2.php on line 60
