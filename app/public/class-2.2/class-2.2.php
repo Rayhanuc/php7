@@ -33,8 +33,45 @@
                         <pre>
 
 // php code start
+functions.php code:
+==============
+*/
+// one parameter can use only
+function factorial($n){// parameter
+    if (gettype($n)!="integer") {
+        return "invalid type";
+    }
+
+    $result = 1;
+    for($i=$n;$i>1;$i--){
+        $result *= $i;
+    }
+
+    return $result;
+}
+==============
+
+include_once "functions.php";
+$x = 6;
+echo "Factorial of {$x} is ".factorial($x);
+echo "<br>";
+
+$y = 10;
+echo "Factorial of {$y} is ".factorial($y);
+echo "<br>";
+
+$z = 12;
+echo "Factorial of {$z} is ".factorial($z);
+echo "<br>";
 
 
+$a = "abcd";
+echo "Factorial of {$a} is ".factorial($a);
+echo "<br>";
+
+
+$b = "5";
+echo "Factorial of \"{$b}\" is ".factorial($b);
 
 
 
