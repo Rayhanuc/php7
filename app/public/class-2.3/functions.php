@@ -1,12 +1,7 @@
 <?php 
 
 
-/*
-
-Determines if the argument is even or odd
-
-*/
-// one parameter can use only
+// if you use one parameter than you have to give rest of eveyone parameter 
 function serve($foodType= "Coffee",$numberOfItems="1 cup"){// parameter
 	echo "{$numberOfItems} of {$foodType} has/have been served";
 }
