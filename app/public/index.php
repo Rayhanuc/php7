@@ -21,6 +21,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1><?php echo "All PHP class of PHP 7 Tutorial" ?></h1>
+                    <p><?php echo "Click on the class name to see the code and result." ?></p>
                 </div>
             </div>
         </div>
@@ -120,6 +121,10 @@
                         </li>
                         <li><a href="class-2.4/class-2.4.php" target="_blank">
                                 <?php echo "২.৪ - ফাংশনের রিটার্ন টাইপ ফিক্স করে দেয়া" ; ?> 
+                            </a>
+                        </li>
+                        <li><a href="class-2.5/class-2.5.php" target="_blank">
+                                <?php echo "২.৫ - ফাংশনে আনলিমিটেড আর্গুমেন্ট অ্যাক্সেপ্ট করা" ; ?> 
                             </a>
                         </li>
 

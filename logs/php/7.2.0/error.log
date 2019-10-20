@@ -117,3 +117,14 @@ Stack trace:
 #0 /app/public/class-2.4/class-2.4.php(65): sum('jkkl', 6, 7)
 #1 {main}
   thrown in /app/public/class-2.4/class-2.4.php on line 58
+[20-Oct-2019 10:11:20 UTC] PHP Fatal error:  Cannot redeclare sum() (previously declared in /app/public/class-2.5/class-2.5.php:55) in /app/public/class-2.5/class-2.5.php on line 62
+[20-Oct-2019 10:12:09 UTC] PHP Fatal error:  Cannot redeclare sum() (previously declared in /app/public/class-2.5/class-2.5.php:55) in /app/public/class-2.5/class-2.5.php on line 62
+[20-Oct-2019 10:46:53 UTC] PHP Fatal error:  Cannot redeclare sum() (previously declared in /app/public/class-2.5/class-2.5.php:55) in /app/public/class-2.5/class-2.5.php on line 62
+[20-Oct-2019 10:47:02 UTC] PHP Fatal error:  Cannot redeclare sum() (previously declared in /app/public/class-2.5/class-2.5.php:55) in /app/public/class-2.5/class-2.5.php on line 62
+[20-Oct-2019 10:47:57 UTC] PHP Fatal error:  Uncaught TypeError: Return value of sum() must be of the type integer, none returned in /app/public/class-2.5/class-2.5.php:62
+Stack trace:
+#0 /app/public/class-2.5/class-2.5.php(63): sum(8, 5, 7, 3, 1, 9)
+#1 {main}
+  thrown in /app/public/class-2.5/class-2.5.php on line 62
+[20-Oct-2019 10:53:57 UTC] PHP Fatal error:  Cannot redeclare sum() (previously declared in /app/public/class-2.5/class-2.5.php:55) in /app/public/class-2.5/class-2.5.php on line 69
+[20-Oct-2019 10:56:15 UTC] PHP Fatal error:  Cannot redeclare sum2() (previously declared in /app/public/class-2.5/class-2.5.php:62) in /app/public/class-2.5/class-2.5.php on line 81
