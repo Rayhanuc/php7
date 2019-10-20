@@ -102,3 +102,18 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /app/public/class-2.2/class-2.2.php on line 60
+[20-Oct-2019 06:51:59 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to sum() must be of the type integer, string given, called in /app/public/class-2.4/class-2.4.php on line 61 and defined in /app/public/class-2.4/class-2.4.php:58
+Stack trace:
+#0 /app/public/class-2.4/class-2.4.php(61): sum('a', 6, 7)
+#1 {main}
+  thrown in /app/public/class-2.4/class-2.4.php on line 58
+[20-Oct-2019 06:54:09 UTC] PHP Fatal error:  Uncaught TypeError: Return value of sum() must be of the type integer, string returned in /app/public/class-2.4/class-2.4.php:59
+Stack trace:
+#0 /app/public/class-2.4/class-2.4.php(62): sum(8, 6, 7)
+#1 {main}
+  thrown in /app/public/class-2.4/class-2.4.php on line 59
+[20-Oct-2019 06:56:32 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to sum() must be of the type integer, string given, called in /app/public/class-2.4/class-2.4.php on line 65 and defined in /app/public/class-2.4/class-2.4.php:58
+Stack trace:
+#0 /app/public/class-2.4/class-2.4.php(65): sum('jkkl', 6, 7)
+#1 {main}
+  thrown in /app/public/class-2.4/class-2.4.php on line 58
