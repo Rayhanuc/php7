@@ -128,3 +128,99 @@ Stack trace:
   thrown in /app/public/class-2.5/class-2.5.php on line 62
 [20-Oct-2019 10:53:57 UTC] PHP Fatal error:  Cannot redeclare sum() (previously declared in /app/public/class-2.5/class-2.5.php:55) in /app/public/class-2.5/class-2.5.php on line 69
 [20-Oct-2019 10:56:15 UTC] PHP Fatal error:  Cannot redeclare sum2() (previously declared in /app/public/class-2.5/class-2.5.php:62) in /app/public/class-2.5/class-2.5.php on line 81
+[21-Oct-2019 06:40:12 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /app/public/class-2.7/class-2.7.php:57
+Stack trace:
+#0 /app/public/class-2.7/class-2.7.php(60): printN(256)
+#1 /app/public/class-2.7/class-2.7.php(60): printN(256)
+#2 /app/public/class-2.7/class-2.7.php(60): printN(255)
+#3 /app/public/class-2.7/class-2.7.php(60): printN(254)
+#4 /app/public/class-2.7/class-2.7.php(60): printN(253)
+#5 /app/public/class-2.7/class-2.7.php(60): printN(252)
+#6 /app/public/class-2.7/class-2.7.php(60): printN(251)
+#7 /app/public/class-2.7/class-2.7.php(60): printN(250)
+#8 /app/public/class-2.7/class-2.7.php(60): printN(249)
+#9 /app/public/class-2.7/class-2.7.php(60): printN(248)
+#10 /app/public/class-2.7/class-2.7.php(60): printN(247)
+#11 /app/public/class-2.7/class-2.7.php(60): printN(246)
+#12 /app/public/class-2.7/class-2.7.php(60): printN(245)
+#13 /app/public/class-2.7/class-2.7.php(60): printN(244)
+#14 /app/public/class-2.7/class-2.7.php(60): printN(243)
+#15 /app/public/class-2.7/class-2.7.php(60): prin in /app/public/class-2.7/class-2.7.php on line 57
+[21-Oct-2019 06:41:15 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /app/public/class-2.7/class-2.7.php:57
+Stack trace:
+#0 /app/public/class-2.7/class-2.7.php(60): printN(256)
+#1 /app/public/class-2.7/class-2.7.php(60): printN(256)
+#2 /app/public/class-2.7/class-2.7.php(60): printN(255)
+#3 /app/public/class-2.7/class-2.7.php(60): printN(254)
+#4 /app/public/class-2.7/class-2.7.php(60): printN(253)
+#5 /app/public/class-2.7/class-2.7.php(60): printN(252)
+#6 /app/public/class-2.7/class-2.7.php(60): printN(251)
+#7 /app/public/class-2.7/class-2.7.php(60): printN(250)
+#8 /app/public/class-2.7/class-2.7.php(60): printN(249)
+#9 /app/public/class-2.7/class-2.7.php(60): printN(248)
+#10 /app/public/class-2.7/class-2.7.php(60): printN(247)
+#11 /app/public/class-2.7/class-2.7.php(60): printN(246)
+#12 /app/public/class-2.7/class-2.7.php(60): printN(245)
+#13 /app/public/class-2.7/class-2.7.php(60): printN(244)
+#14 /app/public/class-2.7/class-2.7.php(60): printN(243)
+#15 /app/public/class-2.7/class-2.7.php(60): prin in /app/public/class-2.7/class-2.7.php on line 57
+[21-Oct-2019 07:07:48 UTC] PHP Notice:  Undefined variable: counter in /app/public/class-2.7/class-2.7.php on line 70
+[21-Oct-2019 07:07:48 UTC] PHP Stack trace:
+[21-Oct-2019 07:07:48 UTC] PHP   1. {main}() /app/public/class-2.7/class-2.7.php:0
+[21-Oct-2019 07:07:48 UTC] PHP   2. printNumber() /app/public/class-2.7/class-2.7.php:79
+[21-Oct-2019 07:07:48 UTC] PHP Notice:  Undefined variable: counter in /app/public/class-2.7/class-2.7.php on line 74
+[21-Oct-2019 07:07:48 UTC] PHP Stack trace:
+[21-Oct-2019 07:07:48 UTC] PHP   1. {main}() /app/public/class-2.7/class-2.7.php:0
+[21-Oct-2019 07:07:48 UTC] PHP   2. printNumber() /app/public/class-2.7/class-2.7.php:79
+[21-Oct-2019 07:07:48 UTC] PHP Notice:  Undefined variable: counter in /app/public/class-2.7/class-2.7.php on line 75
+[21-Oct-2019 07:07:48 UTC] PHP Stack trace:
+[21-Oct-2019 07:07:48 UTC] PHP   1. {main}() /app/public/class-2.7/class-2.7.php:0
+[21-Oct-2019 07:07:48 UTC] PHP   2. printNumber() /app/public/class-2.7/class-2.7.php:79
+[21-Oct-2019 07:07:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function printNumber(), 1 passed in /app/public/class-2.7/class-2.7.php on line 76 and exactly 2 expected in /app/public/class-2.7/class-2.7.php:69
+Stack trace:
+#0 /app/public/class-2.7/class-2.7.php(76): printNumber(1)
+#1 /app/public/class-2.7/class-2.7.php(79): printNumber(21, 37)
+#2 {main}
+  thrown in /app/public/class-2.7/class-2.7.php on line 69
+[21-Oct-2019 07:08:21 UTC] PHP Notice:  Undefined variable: counter in /app/public/class-2.7/class-2.7.php on line 70
+[21-Oct-2019 07:08:21 UTC] PHP Stack trace:
+[21-Oct-2019 07:08:21 UTC] PHP   1. {main}() /app/public/class-2.7/class-2.7.php:0
+[21-Oct-2019 07:08:21 UTC] PHP   2. printNumber() /app/public/class-2.7/class-2.7.php:79
+[21-Oct-2019 07:08:21 UTC] PHP Notice:  Undefined variable: counter in /app/public/class-2.7/class-2.7.php on line 74
+[21-Oct-2019 07:08:22 UTC] PHP Stack trace:
+[21-Oct-2019 07:08:22 UTC] PHP   1. {main}() /app/public/class-2.7/class-2.7.php:0
+[21-Oct-2019 07:08:22 UTC] PHP   2. printNumber() /app/public/class-2.7/class-2.7.php:79
+[21-Oct-2019 07:08:22 UTC] PHP Notice:  Undefined variable: counter in /app/public/class-2.7/class-2.7.php on line 75
+[21-Oct-2019 07:08:22 UTC] PHP Stack trace:
+[21-Oct-2019 07:08:22 UTC] PHP   1. {main}() /app/public/class-2.7/class-2.7.php:0
+[21-Oct-2019 07:08:22 UTC] PHP   2. printNumber() /app/public/class-2.7/class-2.7.php:79
+[21-Oct-2019 07:08:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function printNumber(), 1 passed in /app/public/class-2.7/class-2.7.php on line 76 and exactly 2 expected in /app/public/class-2.7/class-2.7.php:69
+Stack trace:
+#0 /app/public/class-2.7/class-2.7.php(76): printNumber(1)
+#1 /app/public/class-2.7/class-2.7.php(79): printNumber(21, 37)
+#2 {main}
+  thrown in /app/public/class-2.7/class-2.7.php on line 69
+[21-Oct-2019 07:08:28 UTC] PHP Notice:  Undefined variable: counter in /app/public/class-2.7/class-2.7.php on line 70
+[21-Oct-2019 07:08:28 UTC] PHP Stack trace:
+[21-Oct-2019 07:08:28 UTC] PHP   1. {main}() /app/public/class-2.7/class-2.7.php:0
+[21-Oct-2019 07:08:28 UTC] PHP   2. printNumber() /app/public/class-2.7/class-2.7.php:79
+[21-Oct-2019 07:08:28 UTC] PHP Notice:  Undefined variable: counter in /app/public/class-2.7/class-2.7.php on line 74
+[21-Oct-2019 07:08:28 UTC] PHP Stack trace:
+[21-Oct-2019 07:08:28 UTC] PHP   1. {main}() /app/public/class-2.7/class-2.7.php:0
+[21-Oct-2019 07:08:28 UTC] PHP   2. printNumber() /app/public/class-2.7/class-2.7.php:79
+[21-Oct-2019 07:08:28 UTC] PHP Notice:  Undefined variable: counter in /app/public/class-2.7/class-2.7.php on line 75
+[21-Oct-2019 07:08:28 UTC] PHP Stack trace:
+[21-Oct-2019 07:08:28 UTC] PHP   1. {main}() /app/public/class-2.7/class-2.7.php:0
+[21-Oct-2019 07:08:28 UTC] PHP   2. printNumber() /app/public/class-2.7/class-2.7.php:79
+[21-Oct-2019 07:08:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function printNumber(), 1 passed in /app/public/class-2.7/class-2.7.php on line 76 and exactly 2 expected in /app/public/class-2.7/class-2.7.php:69
+Stack trace:
+#0 /app/public/class-2.7/class-2.7.php(76): printNumber(1)
+#1 /app/public/class-2.7/class-2.7.php(79): printNumber(21, 37)
+#2 {main}
+  thrown in /app/public/class-2.7/class-2.7.php on line 69
+[21-Oct-2019 07:08:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function printNumber(), 1 passed in /app/public/class-2.7/class-2.7.php on line 76 and exactly 2 expected in /app/public/class-2.7/class-2.7.php:69
+Stack trace:
+#0 /app/public/class-2.7/class-2.7.php(76): printNumber(22)
+#1 /app/public/class-2.7/class-2.7.php(79): printNumber(22, 37)
+#2 {main}
+  thrown in /app/public/class-2.7/class-2.7.php on line 69
