@@ -224,3 +224,7 @@ Stack trace:
 #1 /app/public/class-2.7/class-2.7.php(79): printNumber(22, 37)
 #2 {main}
   thrown in /app/public/class-2.7/class-2.7.php on line 69
+[31-Oct-2019 09:36:22 UTC] PHP Notice:  Undefined variable: name in /app/public/class-2.9/index.php on line 59
+[31-Oct-2019 09:36:22 UTC] PHP Stack trace:
+[31-Oct-2019 09:36:22 UTC] PHP   1. {main}() /app/public/class-2.9/index.php:0
+[31-Oct-2019 09:36:22 UTC] PHP   2. doSomething() /app/public/class-2.9/index.php:62
