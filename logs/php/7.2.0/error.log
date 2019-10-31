@@ -228,3 +228,4 @@ Stack trace:
 [31-Oct-2019 09:36:22 UTC] PHP Stack trace:
 [31-Oct-2019 09:36:22 UTC] PHP   1. {main}() /app/public/class-2.9/index.php:0
 [31-Oct-2019 09:36:22 UTC] PHP   2. doSomething() /app/public/class-2.9/index.php:62
+[31-Oct-2019 18:12:11 UTC] PHP Parse error:  syntax error, unexpected '[', expecting '(' in /app/public/class-3.1/index.php on line 65

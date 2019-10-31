@@ -31,8 +31,8 @@
             <div class="col-md-12">
                 <div class="header-menu">
                     <ul>
-                        <h1><?php echo "Chapter 1: ১ - পিএইচপির প্রাথমিক বিষয়সমূহ"; ?></h1>
-                        <br>
+                        <h1 class="chapter"><?php echo "Chapter 1: ১ - পিএইচপির প্রাথমিক বিষয়সমূহ"; ?></h1>
+                        
                         <li><a href="class-1/class-1.php" target="_blank"><?php echo "১.১ - পিএইচপি ডেভেলপমেন্ট এনভায়রনমেন্ট" ?></a></li>
                         <li><a href="class-2/class-2.php" target="_blank"><?php echo "১.২ - ভ্যারিয়েবল পরিচিতি" ?></a></li>
                         <li><a href="class-3/class-3.php" target="_blank"><?php echo "১.৩ - ভ্যারিয়েবল নিয়ে আরও কথা, কনস্ট্যান্ট এবং কমেন্টস" ?></a></li>
@@ -100,13 +100,10 @@
                         <li><a href="class-31/class-31.php" target="_blank">
                                 <?php echo "১.৩১ - নাল কোলেস অপারেটর" ; ?> 
                             </a>
-                        </li>                        
-                        <br>
-                        <br>
-
+                        </li> 
 
                         <!-- Chapter 2 link started from here -->
-                        <h1><?php echo "Chapter 2: ২ - ফাংশন"; ?></h1>
+                        <h1 class="chapter"><?php echo "Chapter 2: ২ - ফাংশন"; ?></h1>
                         <li><a href="class-2.1/class-2.1.php" target="_blank">
                                 <?php echo "২.১ - ফাংশন কি এবং কিভাবে লিখতে হয়" ; ?> 
                             </a>
@@ -147,7 +144,14 @@
                                 <?php echo "২.১০ - রিকার্সিভ ফাংশনের সাহায্যে ফ্যাক্টোরিয়াল বের করা"; ?>
                             </a>
                         </li>
-                        
+
+                        <!-- Chapter 3 link started from here -->
+                        <h1 class="chapter"><?php echo "৩ - অ্যারে"; ?></h1>
+                        <li><a href="class-3.1/index.php" target="_blank">
+                                <?php echo "৩.১ - অ্যারে পরিচিতি"; ?>
+                            </a>
+                        </li>
+
 
                     </ul>
                 </div>
