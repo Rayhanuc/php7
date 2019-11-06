@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>PHP-7 Class 3.1</title>
+        <title>PHP-7 Class 3.2</title>
 
         <!-- bootstrap css link -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
                     <div class="col-md-12">
                         <?php
                         echo "<h1 class='text-center'>PHP-7</h1> \n<br/>";
-                        echo "<h3 class='text-center'>৩.১ - অ্যারে পরিচিতি</h3> \n<br/>";
+                        echo "<h3 class='text-center'>৩.২ - অ্যারে ম্যানিপুলেশন</h3> \n<br/>";
                         ?>
                         <hr>
                         <?php echo "<h4>PHP Code: </h4>"; ?>
@@ -34,44 +34,74 @@
 
 // php code start
 
-$n = "12";
-
-$students = array(
-    "rahim",
-    "Karim",
-    123,
-    "monir"
-);
-echo "<h5>another type of arry writing system</h5>";
 $students = [
     "rahim",
     "Karim",
     123,
     "monir"
 ];
-var_dump($students)."<br>";
 
-// How many element in this array. It will count it.
-echo "Elements have in this array : ".count($students)."<br>";
-
-echo $students[0]."<br>";
-echo $students[1]."<br>";
-echo $students[2]."<br>";
-echo $students[3]."<br>";
-
-
-echo "<h5>For loop start for this array</h5>";
-// for loop
+// array is not immutable // can't modify
+// array is mutable // can modify.
+$students[2] = "shafik";
 $n = count($students);
-for($i=0;$i<$n;$i++){
-    echo $students[$i]."<br/>";
+for($i= 0; $i<$n; $i++){
+    echo $students[$i]."\n<br/>";
 }
 
-echo "<h5>Invert for loop count</h5>";
-// invert for loop count
+// array first element will hide
+$student = array_pop($students);
+
+
+// array last element will hide
+$student = array_shift($students);
+// echo $student."<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+
 $n = count($students);
-for($i=$n-1;$i>=0;$i--){
-    echo $students[$i]."<br/>";
+for($i= 0; $i<$n; $i++){
+    echo $students[$i]."\n<br/>";
+}
+
+
+$students2 = [
+    "rahim",
+    "Karim",
+    123,
+    "monir"
+];
+
+$students2[2] = "Bishal";
+$students2[] = "jamal";
+// at the last new data add in array
+array_push($students2, "kamal");
+
+
+
+// new element add in first of array
+array_unshift($students2,"Ali");
+array_unshift($students2,"Aiob");
+array_unshift($students2,"Salina");
+// echo $student."<br>";
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+
+$n = count($students2);
+for($i= 0; $i<$n; $i++){
+    echo $students2[$i]."\n<br/>";
+}
+
+
+/*array_shift();
+array_unshift();
+array_pop();
+array_push();*/
 
 // php end
 
@@ -90,45 +120,75 @@ for($i=$n-1;$i>=0;$i--){
                         
 // php code start
 
-$n = "12";
-
-$students = array(
-    "rahim",
-    "Karim",
-    123,
-    "monir"
-);
-// echo "<h5>another type of arry writing system</h5>";
 $students = [
     "rahim",
     "Karim",
     123,
     "monir"
 ];
-var_dump($students)."<br>";
 
-// How many element in this array. It will count it.
-echo "Elements have in this array : ".count($students)."<br>";
-
-echo $students[0]."<br>";
-echo $students[1]."<br>";
-echo $students[2]."<br>";
-echo $students[3]."<br>";
-
-
-echo "<h5>For loop start for this array</h5>";
-// for loop
+// array is not immutable // can't modify
+// array is mutable // can modify.
+$students[2] = "shafik";
 $n = count($students);
-for($i=0;$i<$n;$i++){
-    echo $students[$i]."<br/>";
+for($i= 0; $i<$n; $i++){
+    echo $students[$i]."\n<br/>";
 }
 
-echo "<h5>Invert for loop count</h5>";
-// invert for loop count
+// array first element will hide
+$student = array_pop($students);
+
+
+// array last element will hide
+$student = array_shift($students);
+// echo $student."<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+
 $n = count($students);
-for($i=$n-1;$i>=0;$i--){
-    echo $students[$i]."<br/>";
+for($i= 0; $i<$n; $i++){
+    echo $students[$i]."\n<br/>";
 }
+
+
+$students2 = [
+    "rahim",
+    "Karim",
+    123,
+    "monir"
+];
+
+$students2[2] = "Bishal";
+$students2[] = "jamal";
+// at the last new data add in array
+array_push($students2, "kamal");
+
+
+
+// new element add in first of array
+array_unshift($students2,"Ali");
+array_unshift($students2,"Aiob");
+array_unshift($students2,"Salina");
+// echo $student."<br>";
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+
+$n = count($students2);
+for($i= 0; $i<$n; $i++){
+    echo $students2[$i]."\n<br/>";
+}
+
+
+/*array_shift();
+array_unshift();
+array_pop();
+array_push();*/
+
 
 // php end
                         ?>

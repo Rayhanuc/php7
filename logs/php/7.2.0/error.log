@@ -229,3 +229,59 @@ Stack trace:
 [31-Oct-2019 09:36:22 UTC] PHP   1. {main}() /app/public/class-2.9/index.php:0
 [31-Oct-2019 09:36:22 UTC] PHP   2. doSomething() /app/public/class-2.9/index.php:62
 [31-Oct-2019 18:12:11 UTC] PHP Parse error:  syntax error, unexpected '[', expecting '(' in /app/public/class-3.1/index.php on line 65
+[06-Nov-2019 05:14:29 UTC] PHP Warning:  array_shift() expects exactly 1 parameter, 0 given in /app/public/class-3.2/index.php on line 77
+[06-Nov-2019 05:14:29 UTC] PHP Stack trace:
+[06-Nov-2019 05:14:29 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:14:29 UTC] PHP   2. array_shift() /app/public/class-3.2/index.php:77
+[06-Nov-2019 05:14:29 UTC] PHP Warning:  array_unshift() expects at least 2 parameters, 0 given in /app/public/class-3.2/index.php on line 78
+[06-Nov-2019 05:14:29 UTC] PHP Stack trace:
+[06-Nov-2019 05:14:29 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:14:29 UTC] PHP   2. array_unshift() /app/public/class-3.2/index.php:78
+[06-Nov-2019 05:14:29 UTC] PHP Warning:  array_pop() expects exactly 1 parameter, 0 given in /app/public/class-3.2/index.php on line 79
+[06-Nov-2019 05:14:29 UTC] PHP Stack trace:
+[06-Nov-2019 05:14:29 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:14:29 UTC] PHP   2. array_pop() /app/public/class-3.2/index.php:79
+[06-Nov-2019 05:14:29 UTC] PHP Warning:  array_push() expects at least 2 parameters, 0 given in /app/public/class-3.2/index.php on line 80
+[06-Nov-2019 05:14:29 UTC] PHP Stack trace:
+[06-Nov-2019 05:14:29 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:14:29 UTC] PHP   2. array_push() /app/public/class-3.2/index.php:80
+[06-Nov-2019 05:24:32 UTC] PHP Notice:  Undefined offset: 3 in /app/public/class-3.2/index.php on line 74
+[06-Nov-2019 05:24:32 UTC] PHP Stack trace:
+[06-Nov-2019 05:24:32 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:24:32 UTC] PHP Notice:  Undefined offset: 3 in /app/public/class-3.2/index.php on line 78
+[06-Nov-2019 05:24:32 UTC] PHP Stack trace:
+[06-Nov-2019 05:24:32 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:25:11 UTC] PHP Notice:  Undefined offset: 3 in /app/public/class-3.2/index.php on line 78
+[06-Nov-2019 05:25:11 UTC] PHP Stack trace:
+[06-Nov-2019 05:25:11 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:28:52 UTC] PHP Notice:  Undefined offset: 3 in /app/public/class-3.2/index.php on line 78
+[06-Nov-2019 05:28:52 UTC] PHP Stack trace:
+[06-Nov-2019 05:28:52 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:29:06 UTC] PHP Notice:  Undefined offset: 3 in /app/public/class-3.2/index.php on line 80
+[06-Nov-2019 05:29:06 UTC] PHP Stack trace:
+[06-Nov-2019 05:29:06 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:29:10 UTC] PHP Notice:  Undefined offset: 3 in /app/public/class-3.2/index.php on line 80
+[06-Nov-2019 05:29:10 UTC] PHP Stack trace:
+[06-Nov-2019 05:29:10 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:30:49 UTC] PHP Notice:  Undefined offset: 2 in /app/public/class-3.2/index.php on line 81
+[06-Nov-2019 05:30:49 UTC] PHP Stack trace:
+[06-Nov-2019 05:30:49 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:30:49 UTC] PHP Notice:  Undefined offset: 3 in /app/public/class-3.2/index.php on line 81
+[06-Nov-2019 05:30:49 UTC] PHP Stack trace:
+[06-Nov-2019 05:30:49 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:31:57 UTC] PHP Notice:  Undefined variable: n in /app/public/class-3.2/index.php on line 80
+[06-Nov-2019 05:31:57 UTC] PHP Stack trace:
+[06-Nov-2019 05:31:57 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:33:07 UTC] PHP Notice:  Undefined variable: n in /app/public/class-3.2/index.php on line 80
+[06-Nov-2019 05:33:07 UTC] PHP Stack trace:
+[06-Nov-2019 05:33:07 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:34:04 UTC] PHP Notice:  Undefined variable: n in /app/public/class-3.2/index.php on line 80
+[06-Nov-2019 05:34:04 UTC] PHP Stack trace:
+[06-Nov-2019 05:34:04 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:34:10 UTC] PHP Notice:  Undefined variable: n in /app/public/class-3.2/index.php on line 80
+[06-Nov-2019 05:34:10 UTC] PHP Stack trace:
+[06-Nov-2019 05:34:10 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:34:50 UTC] PHP Notice:  Undefined variable: n in /app/public/class-3.2/index.php on line 80
+[06-Nov-2019 05:34:50 UTC] PHP Stack trace:
+[06-Nov-2019 05:34:50 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
+[06-Nov-2019 05:39:30 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/class-3.2/index.php on line 92

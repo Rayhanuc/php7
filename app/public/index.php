@@ -151,6 +151,10 @@
                                 <?php echo "৩.১ - অ্যারে পরিচিতি"; ?>
                             </a>
                         </li>
+                        <li><a href="class-3.2/index.php" target="_blank">
+                                <?php echo "৩.২ - অ্যারে ম্যানিপুলেশন"; ?>
+                            </a>
+                        </li>
 
 
                     </ul>
