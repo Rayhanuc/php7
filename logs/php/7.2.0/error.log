@@ -285,3 +285,17 @@ Stack trace:
 [06-Nov-2019 05:34:50 UTC] PHP Stack trace:
 [06-Nov-2019 05:34:50 UTC] PHP   1. {main}() /app/public/class-3.2/index.php:0
 [06-Nov-2019 05:39:30 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/class-3.2/index.php on line 92
+[06-Nov-2019 06:17:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/class-3.3/index.php on line 76
+[06-Nov-2019 06:17:14 UTC] PHP Stack trace:
+[06-Nov-2019 06:17:14 UTC] PHP   1. {main}() /app/public/class-3.3/index.php:0
+[06-Nov-2019 06:17:37 UTC] PHP Notice:  Undefined offset: 0 in /app/public/class-3.3/index.php on line 76
+[06-Nov-2019 06:17:37 UTC] PHP Stack trace:
+[06-Nov-2019 06:17:37 UTC] PHP   1. {main}() /app/public/class-3.3/index.php:0
+[06-Nov-2019 06:17:37 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/class-3.3/index.php on line 76
+[06-Nov-2019 06:17:37 UTC] PHP Stack trace:
+[06-Nov-2019 06:17:37 UTC] PHP   1. {main}() /app/public/class-3.3/index.php:0
+[06-Nov-2019 06:22:38 UTC] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE), expecting ',' or ';' in /app/public/class-3.3/index.php on line 83
+[06-Nov-2019 06:32:10 UTC] PHP Notice:  Array to string conversion in /app/public/class-3.3/index.php on line 102
+[06-Nov-2019 06:32:10 UTC] PHP Stack trace:
+[06-Nov-2019 06:32:10 UTC] PHP   1. {main}() /app/public/class-3.3/index.php:0
+[06-Nov-2019 07:37:16 UTC] PHP Parse error:  syntax error, unexpected '$array_keys' (T_VARIABLE) in /app/public/class-3.3/index.php on line 103
