@@ -299,3 +299,11 @@ Stack trace:
 [06-Nov-2019 06:32:10 UTC] PHP Stack trace:
 [06-Nov-2019 06:32:10 UTC] PHP   1. {main}() /app/public/class-3.3/index.php:0
 [06-Nov-2019 07:37:16 UTC] PHP Parse error:  syntax error, unexpected '$array_keys' (T_VARIABLE) in /app/public/class-3.3/index.php on line 103
+[06-Nov-2019 08:49:24 UTC] PHP Warning:  explode() expects at least 2 parameters, 1 given in /app/public/class-3.4/index.php on line 59
+[06-Nov-2019 08:49:24 UTC] PHP Stack trace:
+[06-Nov-2019 08:49:24 UTC] PHP   1. {main}() /app/public/class-3.4/index.php:0
+[06-Nov-2019 08:49:24 UTC] PHP   2. explode() /app/public/class-3.4/index.php:59
+[06-Nov-2019 09:02:46 UTC] PHP Warning:  preg_split(): No ending delimiter ',' found in /app/public/class-3.4/index.php on line 74
+[06-Nov-2019 09:02:46 UTC] PHP Stack trace:
+[06-Nov-2019 09:02:46 UTC] PHP   1. {main}() /app/public/class-3.4/index.php:0
+[06-Nov-2019 09:02:46 UTC] PHP   2. preg_split() /app/public/class-3.4/index.php:74
