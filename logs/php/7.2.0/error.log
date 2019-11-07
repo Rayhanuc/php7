@@ -308,3 +308,9 @@ Stack trace:
 [06-Nov-2019 09:02:46 UTC] PHP   1. {main}() /app/public/class-3.4/index.php:0
 [06-Nov-2019 09:02:46 UTC] PHP   2. preg_split() /app/public/class-3.4/index.php:74
 [06-Nov-2019 11:52:25 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /app/public/class-3.5/index.php on line 76
+[07-Nov-2019 15:38:52 UTC] PHP Notice:  Undefined variable: serialized in /app/public/class-3.6/index.php on line 75
+[07-Nov-2019 15:38:52 UTC] PHP Stack trace:
+[07-Nov-2019 15:38:52 UTC] PHP   1. {main}() /app/public/class-3.6/index.php:0
+[07-Nov-2019 15:40:25 UTC] PHP Notice:  Array to string conversion in /app/public/class-3.6/index.php on line 77
+[07-Nov-2019 15:40:25 UTC] PHP Stack trace:
+[07-Nov-2019 15:40:25 UTC] PHP   1. {main}() /app/public/class-3.6/index.php:0
